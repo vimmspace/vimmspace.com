@@ -1,0 +1,19 @@
+google_analytics: UA-NNNNNNNN-N
+
+header_pages:
+  - about.md
+  - projects.md
+  - blog.md
+  - contact.md
+
+collections:
+  projects:
+    output: true
+
+# footer: 'follow on <a href="https://twitter.com/">twitter</a>'
+
+style: light # light or dark (default)
+listen_for_clients_preferred_style: true # true or false (default)
+
+plugins:
+  - jekyll-seo-tag
