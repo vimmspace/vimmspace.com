@@ -5,8 +5,8 @@
  * Style variables
  */
 $base-font-family:     'Work Sans' !default;
-$base-font-size:       16px !default;
-$mobile-font-size:     13px !default;
+$base-font-size:       18px !default;
+$mobile-font-size:     16px !default;
 $base-line-height:     1.5 !default;
 $container-width:      90% !default;
 $content-container-max-width: 900px !default;
@@ -19,7 +19,8 @@ body { background-color: var(--background-color);  margin: 0 auto;  padding: 0; 
 h1, h2, h3, h4, h5, h6 { font-size: $base-font-size;  margin: 0px;  margin-top: 22px;  font-weight: bold;  color: var(--text-color); }
 p, ul, ol { margin: 0px;  color: var(--text-color); }
 a { text-decoration: underline;  color: var(--link-color); }
-a:hover { color: var(--background-color); background-color: var(--base-color); }
+a:hover { color: var(--background-color);  background-color: var(--base-color); }
+img {max-width: 100%;  height: auto; }
 @media only screen and (max-device-width: 500px) { * { font-size: $mobile-font-size !important; } }
 
 /**
